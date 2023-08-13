@@ -24,7 +24,7 @@ class Help(commands.Cog, name="Help \U0001F4D2"):
                                                        "\n[Click here for further info.](https://split-ticket.org/about-us/)\n")
         embed.add_field(name="SplitTicket Partners", value="Don't excessively bother a partner.\n"
                                                            "- <@656342666849812491>/[Lakshya Jain](https://twitter.com/lxeagle17)\n"
-                                                           "- Leon Sit (Managing editor and graphics)"
+                                                           "- Leon Sit (Managing editor and graphics)\n"
                                                            "- <@679078181332058124>/[Harrison Lavelle](https://twitter.com/HWLavelleMaps)\n"
                                                            "- <@1001970059029270649>/[Armin Thomas/Thorongil](https://twitter.com/Thorongil16)\n"
                                                            "- <@1042960326582353941>/Claire Considine\n")
