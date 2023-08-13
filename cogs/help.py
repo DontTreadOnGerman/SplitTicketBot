@@ -34,6 +34,9 @@ class Help(commands.Cog, name="Help \U0001F4D2"):
                                                "\n**Bot Developers**\n"
                                                "<@720330422726164500>: Owner and hoster",
                         inline=False)
+        embed.add_field(name="Bot Changelog", value="**Version 1.0**\n"
+                                                    "- Nothing so far!",
+                        inline=False)
         await ctx.send(embed=embed, view=InfoButtons())
 
     @commands.guild_only()
