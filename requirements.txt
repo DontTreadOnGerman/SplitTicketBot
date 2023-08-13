@@ -1,0 +1,8 @@
+wavelink
+psutil
+humanize
+aiohttp
+feedparser
+discord.py[voice]
+PyYAML
+pandas

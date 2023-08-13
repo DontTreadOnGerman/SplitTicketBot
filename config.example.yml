@@ -1,0 +1,5 @@
+token: "Bot token here"
+article_channel: "Split Ticket discord articles channel here (put channel ID)"
+last_pub_date: "Tue, 08 Aug 2023 12:05:23 " #Keep this the same since the code only reads RSS date formats. It'll be automatically updated to the most recent publication date once the code is ran
+spotify_client_id: "Spotify client ID here"
+spotify_client_secret: "Spotify client secret here"

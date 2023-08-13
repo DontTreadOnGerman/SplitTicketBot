@@ -1,0 +1,5 @@
+lavalink/logs
+lavalink/application.yml
+config.yml
+.idea
+__pycache__
