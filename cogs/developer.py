@@ -203,6 +203,8 @@ class Developer(commands.Cog, name="Developer :gear:"):
             embed = embeds.twoembed("Pulled - Stdout!", str(stdout.decode()))
         if stderr:
             embed = embeds.twoembed("Pulled - Stderr!", str(stderr.decode()))
+        for cog in self.bot.cogs_list:
+            await self.bot.reload_extension(f"cogs.{cog}")
         await message.edit(embed=embed)
 
 
