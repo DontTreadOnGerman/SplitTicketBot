@@ -217,6 +217,7 @@ class Fun(commands.Cog, name="Fun \U0001F973"):
         embed.add_field(name="Urbanization Data", value=urbanization_data)
         embed.add_field(name="Population Data", value=employment_data)
         embed.add_field(name="Commute Data", value=commute_data)
+        embed.set_footer(text="Election data is from DRA and OregonMapGuy. Education, housing, employment and commute data is from the Census/the American Community Survey. Urban data is from the Department of Housing and Urban Development.")
         await ctx.send(file=file, embed=embed)
 
     @commands.guild_only()
