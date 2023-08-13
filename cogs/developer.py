@@ -94,8 +94,8 @@ class Developer(commands.Cog, name="Developer :gear:"):
                                  description=f"All data is recorded starting from when the bot starts.\n"
                                              f"Bot start: <t:{round(self.bot.launch_time.timestamp())}>")
         embedvar.add_field(name="Messages", value=f"**``Total Messages``**: {self.bot.total_message_num}\n"
-                                                  f"**``Human Messages``**: {self.bot.message_num}\n"
-                                                  f"**``Bot Messages``**: {self.bot.bot_message_num}\n"
+                                                  f"**``Human Messages``**: {self.bot.bot_message_num}\n"
+                                                  f"**``Bot Messages``**: {self.bot.message_num}\n"
                                                   f"**``Webhook Messages``**: {self.bot.webhook_message_num}\n"
                                                   f"**``Message Senders``**: {len(self.bot.message_senders)}\n"
                                                   f"These figures include commands.", inline=False)
